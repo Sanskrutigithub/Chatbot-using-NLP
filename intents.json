@@ -1,0 +1,31 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Greetings! Welcome to our chatbot."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "Exit"],
+            "responses": [
+                "Goodbye! Have a great day.",
+                "See you soon!",
+                "Take care!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Help", "What can you do", "Assistance"],
+            "responses": [
+                "I'm here to help! I can answer questions and provide information.",
+                "I'm a helpful chatbot. Ask me anything!",
+                "I'm ready to assist you with various queries."
+            ]
+        }
+    ]
+}
