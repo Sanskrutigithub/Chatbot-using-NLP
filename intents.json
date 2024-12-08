@@ -1,0 +1,92 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Greetings", "What's up?", "Howdy"],
+            "responses": ["Hello! How can I help you today?", "Hi there!", "Hey! What's up?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "Exit", "Take care", "I'm leaving"],
+            "responses": ["Goodbye! Have a nice day!", "See you next time!", "Take care!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Much appreciated", "I owe you one"],
+            "responses": ["You're welcome!", "Happy to help!", "Anytime!", "No problem at all!"]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?", "Funny"],
+            "responses": [
+                "Why don’t scientists trust atoms? Because they make up everything!",
+                "Why was the math book sad? It had too many problems.",
+                "What do you call fake spaghetti? An impasta!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "Tell me the weather", "Is it raining?", "How's the weather today?"],
+            "responses": [
+                "The weather is great today!",
+                "It's sunny and bright outside.",
+                "It might rain later, keep an umbrella handy!",
+                "It looks cloudy, but no rain yet!"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What's the time?", "Tell me the time", "Current time", "What time is it?"],
+            "responses": [
+                "It's 10:30 AM right now.",
+                "The time is 3:45 PM.",
+                "It's currently 6:00 PM."
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": ["What's for lunch?", "What should I eat?", "Recommend a dish", "Any food ideas?"],
+            "responses": [
+                "How about some spaghetti carbonara?",
+                "Maybe try a veggie stir-fry?",
+                "You can't go wrong with pizza!"
+            ]
+        },
+        {
+            "tag": "mood",
+            "patterns": ["How are you?", "How's it going?", "What's your mood today?", "How do you feel?"],
+            "responses": [
+                "I'm just a bot, but I'm feeling helpful!",
+                "I feel great! Ready to assist you.",
+                "I'm here to make your day better!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Help", "What can you do?", "Assistance", "I need help", "Guide me"],
+            "responses": [
+                "I'm here to answer your questions and provide information.",
+                "I can tell jokes, check the weather, or even just chat with you.",
+                "Ask me anything! I'll do my best to help."
+            ]
+        },
+        {
+            "tag": "facts",
+            "patterns": ["Tell me a fact", "Share something interesting", "Do you know any facts?", "Fun fact"],
+            "responses": [
+                "Did you know? Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old!",
+                "Here's a fun fact: Octopuses have three hearts!",
+                "Did you know? The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion."
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": ["*"],
+            "responses": [
+                "I'm not sure how to respond to that. Can you rephrase?",
+                "I didn't quite get that. Could you try again?",
+                "Sorry, I'm a bit confused. Could you provide more details?"
+            ]
+        }
+    ]
+}
