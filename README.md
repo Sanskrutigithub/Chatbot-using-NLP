@@ -1,4 +1,4 @@
-##Implementing Chatbot using NLP
+<h1>Implementing Chatbot using NLP</h1>
 
 This repository implements a simple chatbot using Flask and Natural Language Processing (NLP) techniques. It leverages techniques like tokenization, stop word removal, lemmatization, and bag-of-words representation to understand user queries and provide relevant responses.
 
